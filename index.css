@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: pink;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border: none;
+    margin-top: 20px;
+}
+h1{
+    text-align: center;
+    
+}
+button{
+    
+    font-size: larger;
+    font-weight: 700;
+    color: antiquewhite;
+}
+#butt{
+    height: 200px;
+    width: 40px;
+}
+.red{
+    background-color: rebeccapurple;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+.magenta{
+    background-color: magenta;
+}
+.orange{
+    background-color: orangered;
+}
+.blue{
+    background-color: aqua;
+}
+.purple{
+    background-color: purple;
+}
+.black{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 15px;
+}
+#black4{
+   height: 100px;
+   width: 40px;
+   font-size: larger;
+   color: white;
+   background-color: black;
+
+}
