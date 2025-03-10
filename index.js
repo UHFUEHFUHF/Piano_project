@@ -43,12 +43,7 @@ function playsound(note) {
     myaud.play();
 }
 
-// Add click event for each button
-pButtons.forEach((btn, index) => {
-    btn.addEventListener("click", () => {
-        playsound(index + 1);
-    });
-});
+
 
 // Add keyboard functionality
 document.addEventListener("keydown", (event) => {
