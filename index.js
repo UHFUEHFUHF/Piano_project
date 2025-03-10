@@ -45,7 +45,7 @@ function playsound(note) {
 
 
 
-// Add keyboard functionality
+// Adding keyboard functionality
 document.addEventListener("keydown", (event) => {
     switch (event.key) {
         case "a":
